@@ -1,6 +1,7 @@
 ---
-layout: single
-title:  "변수"
+title: "변수"
+notetype : feed
+date : 15-10-2021
 ---
 
 ### 매개변수 vs. 변수
