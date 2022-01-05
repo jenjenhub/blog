@@ -1,14 +1,14 @@
 ---
 title: "변수"
 notetype : feed
-date : 05-01-2022
+date : 15-10-2021
 ---
 
 ### 매개변수 vs. 변수
 
 ▪️ 매개변수 : 함수에 인자로 쓰이는 변수, '매개변수' ▶️ parameter 
 
-```js
+```javascript
 function test (a, b) { 
   } 
 ```
@@ -17,7 +17,7 @@ function test (a, b) {
 
 ▪️ 변수 : const, let 으로 생성
 
-```js 
+```javascript
 let a =
 let b = 
 ```
@@ -28,7 +28,7 @@ let b =
 
 ▪️ 인수 / 전달인자 : 함수에 인자로 들어가는 값  ▶️ argument
 
-```js
+```javascript
 function test (3, 4) { 
   }
 ```
