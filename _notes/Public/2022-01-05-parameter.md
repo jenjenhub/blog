@@ -1,7 +1,7 @@
 ---
 title: "변수"
 notetype : feed
-date : 15-10-2021
+date : 05-01-2022
 ---
 
 ### 매개변수 vs. 변수
