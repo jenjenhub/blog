@@ -34,7 +34,7 @@ onClick()
 
 ...생략...
 
-return <button onClick={**onClick**}></button>button>   여기 첫번째 onClick은 또 다른 컴포넌트에  **onClick**함수를 props로 전달하기 위한 prop부분이다.
+return <button onClick={**onClick**}></button>   여기 첫번째 onClick은 또 다른 컴포넌트에  **onClick**함수를 props로 전달하기 위한 prop부분이다.
 
 
 
