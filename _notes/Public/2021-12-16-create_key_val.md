@@ -37,7 +37,7 @@ let something = [{'age':25}]
 something['name'] = 'Kim'
 something['phone']= 'Galaxy'
 
-▶️ [{…}, name: 'Kim', phone: 'Galaxy']  생성 !
+▶️ [{ ... }, name: 'Kim', phone: 'Galaxy']  생성 !
 	  0: {age: 25}
 	  name: "Kim"
 	  phone: "Galaxy"
