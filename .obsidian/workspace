@@ -7,8 +7,11 @@
         "id": "744f0ccfc9b3bb3a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "_notes/Public/2021-01-05-nested_for_loop.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_notes/Public/2021-01-05-nested_for_loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,9 +88,9 @@
   },
   "active": "744f0ccfc9b3bb3a",
   "lastOpenFiles": [
-    "_notes/Public/2021-10-21-immutable.md",
+    "_notes/Public/2021-01-05-nested_for_loop.md",
     "_notes/Public/2021-10-20-react_props.md",
-    "_notes/Public/2021-10-21-syntatic_sugar.md",
-    "_notes/Public/2021-01-05-nested_for_loop.md"
+    "_notes/Public/2021-10-21-immutable.md",
+    "_notes/Public/2021-10-21-syntatic_sugar.md"
   ]
 }

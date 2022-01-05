@@ -1,7 +1,7 @@
 ---
 title: "이중 for문"
 notetype : feed
-date : 05-01-2022
+date : 20-10-2021
 ---
 
 ### 두 숫자가 한꺼번에 돌아갈 때 사용하는 이중for문
