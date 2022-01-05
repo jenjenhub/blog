@@ -1,6 +1,7 @@
 ---
-layout: single
 title: "구조분해할당"
+notetype : feed
+date : 21-10-2021
 ---
 
 ### Syntatic Sugar

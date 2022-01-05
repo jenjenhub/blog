@@ -1,6 +1,8 @@
+
 ---
-layout : single
-title : "Library vs. Framework"
+title:"Library vs. Framework"
+notetype : feed
+date : 22-10-2021
 ---
 
 # Library

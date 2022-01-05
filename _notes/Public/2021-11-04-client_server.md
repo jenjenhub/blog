@@ -1,6 +1,7 @@
 ---
-layout : single
-title : "Client Side & Server Side Rendering"
+title: "Client Side & Server Side Rendering"
+notetype : feed
+date : 04-11-2021
 ---
 
 ### Client Side Rendering
