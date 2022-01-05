@@ -28,7 +28,7 @@ JavaScript의 원시 타입(primitive data type)은 immutable value
 
 ##### immutable
 
-```js
+```javascript
 let user = { name : 'Jenny'}
 
 let myName = user.name  // 변수 myName은 string
@@ -49,7 +49,7 @@ user;              // { name: 'Caleb'}
 
 ##### mutable
 
-```js
+```javascript
 let user1 = { name : 'Jenny'}
 
 let user2 = user1   // 변수 newUser는 object
@@ -91,7 +91,7 @@ immutable은 원래 객체 다룰 때 쓰는데 배열은 참고만 하기.
 
 ##### mutable
 
-```js
+```javascript
 const arr= [1,2,3,4]; 
 arr.push(5);
 arr;

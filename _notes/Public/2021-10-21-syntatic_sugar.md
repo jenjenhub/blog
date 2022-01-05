@@ -10,7 +10,7 @@ date : 21-10-2021
 
 Chrome console에서 다음과 같이 쳐보면서 구조분해할당을 이해해보자.
 
-```js
+```javascript
 const word = 'hello';           // undefined 출력
 
 const number = 123;             // undefined 출력

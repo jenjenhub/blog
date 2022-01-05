@@ -21,7 +21,7 @@ current변수에 idx[0]를 할당하고, idx[i]를 for문 돌려서 current와 i
 
 어떤 함수에 '123' 을 인자로 넣었을 때, 11,12,13,21,22,23,31,32,33' 으로 리턴되게 하는 방법 !?
 
-```js
+```javascript
 function makePermutations(str) {
   let result= ''
                                                         <실행순서>

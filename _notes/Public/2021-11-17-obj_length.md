@@ -9,7 +9,7 @@ title: "obj의 length 구하기"
 
 
 
-```js
+```javascript
 const obj = {a:1, b:2, c:3}
 obj.length   // undefined
 Object.keys(obj).length   // 3

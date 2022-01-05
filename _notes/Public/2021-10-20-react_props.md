@@ -72,7 +72,7 @@ Web:
 
 📌 Original
 
-```js
+```javascript
 import React, { useState } from "react";
 
 export default function ParentComponent() {
