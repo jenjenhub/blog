@@ -25,7 +25,7 @@ current변수에 idx[0]를 할당하고, idx[i]를 for문 돌려서 current와 i
 
 function makePermutations(str) {
   let result= ''
-                                                        <실행순서>
+                                                         // <실행순서>
   for (let left = 0; left < str.length; left++) {        //1                          8
     for (let right = 0; right < str.length; right++) {   //2  4  6                    9  11 
       result = result + `${str[left]}${str[right]},`;    //3  5  7(str.length까지 돌면) 10 12 
