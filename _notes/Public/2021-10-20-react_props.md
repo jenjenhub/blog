@@ -6,9 +6,8 @@ date : 20-10-2021
 
 ### Example 1
 
+![[111.png]]
 
-
-![react_props_example1_appjs](../images/2021-10-20-react_props/react_props_example1_appjs.png)
 
 ❗️onClick이라는 변수로 설정한 것. 
 
@@ -22,8 +21,8 @@ date : 20-10-2021
 ​    구조는 onClick에 handleRollClick함수가 할당되어 있다고 말할 수 있다.
 
 
+![[222.png]]
 
-![react_props_example1_buttonjs](../images/2021-10-20-react_props/react_props_example1_buttonjs.png)
 
 function Button ({onClick}) {
 
@@ -61,8 +60,8 @@ const onClick = props.onClick
 
 
 Web:
+![[333.png]]
 
-![](../images/2021-10-20-react_props/changeme.png)
 
 👉 이 화면에서 '값 변경' button을 누르면 '값은 보여줄게 완전히 달라진 값 입니다' 라고 뜨도록 바꾸고 싶다 !
 
@@ -176,8 +175,8 @@ function ChildComponent({handleButtonClick}) {
 
 Web :
 
-![changed](../images/2021-10-20-react_props/changed.png)
 
+![[444.png]]
 
 
 
@@ -229,4 +228,4 @@ function ChildComponent({ handleButtonClick }) {
 
 Web :
 
-![changed2](../images/2021-10-20-react_props/changed2.png)
+![[555.png]]
