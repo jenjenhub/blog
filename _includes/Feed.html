@@ -27,6 +27,10 @@
 * This file contains the markup for the context menu thingy you see when you right
 * click on the post titles on the home page.
 *
+* 밑에 부분 original state (feed list에 내용도 보이게): 
+* <p style="margin: 0px;">
+* {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 260 }} 
+*
 {%- endcomment -%}
 
 {%- if site.preferences.search.enabled -%}
@@ -49,7 +53,7 @@
             <h4>{{ note_items.title }}</h4>
             <div class="content">
                 <p style="margin: 0px;">
-                  {{ note_items.date.split(' ')[0] }}
+                  {{ note_items.date.toString().split(' ')[1] }}
                 </p>
             </div>
         </a>
