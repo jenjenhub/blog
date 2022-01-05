@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Public/2021-12-16-create_key_val.md",
+            "file": "_notes/Public/2021-11-15-spread.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/2021-12-16-create_key_val.md",
+                "file": "_notes/Public/2021-11-15-spread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,13 +88,13 @@
   },
   "active": "c89e10a6b30995f8",
   "lastOpenFiles": [
+    "_notes/Public/2021-11-15-spread.md",
     "_notes/Public/2021-12-16-create_key_val.md",
     "_notes/Public/2021-10-15-parameter.md",
     "_notes/Public/2021-10-21-immutable.md",
     "_notes/Public/2021-10-20-react_props.md",
     "_notes/Public/2021-10-20-nested_for_loop.md",
     "_notes/Public/2021-11-17-obj_length.md",
-    "_notes/Public/2021-11-15-spread.md",
     "_notes/Public/2021-11-09-sort.md",
     "_notes/Public/2021-11-07-ha2_server.md",
     "_notes/Public/2021-11-07-fetch.md"
