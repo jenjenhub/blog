@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Public/2021-10-20-react_props.md",
+            "file": "_notes/Public/2021-10-20-nested_for_loop.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/2021-10-20-react_props.md",
+                "file": "_notes/Public/2021-10-20-nested_for_loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "c89e10a6b30995f8",
   "lastOpenFiles": [
-    "_notes/Public/2021-10-20-react_props.md",
     "_notes/Public/2021-10-20-nested_for_loop.md",
+    "_notes/Public/2021-10-20-react_props.md",
     "_notes/Public/2021-10-21-syntatic_sugar.md",
     "_notes/Public/2021-10-22-library_framework.md",
     "_notes/Public/2021-11-04-client_server.md",
