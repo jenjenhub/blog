@@ -1,6 +1,7 @@
 ---
-layout: single
-title:  "배열/객체 안에 key,value쌍 생성하기"
+title: "배열/객체 안에 key,value쌍 생성하기"
+notetype : feed
+date : 16-12-2021
 ---
 
 ### 배열(arr) 안에 key,value쌍 생성하기

@@ -1,6 +1,8 @@
+
 ---
-layout: single
 title: "obj의 length 구하기"
+notetype : feed
+date : 17-11-2021
 ---
 
 ⚠️ 객체는 .length로 길이를 구할 수 없다.
