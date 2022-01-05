@@ -1,6 +1,7 @@
 ---
-layout: single
-title:  "React : 부모 컴포넌트 → 자식 컴포넌트 props 전달하기"
+title: "React : 부모 컴포넌트 → 자식 컴포넌트 props 전달하기"
+notetype : feed
+date : 20-10-2021
 ---
 
 ### Example 1

@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "0d7019b0b030b8f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "744f0ccfc9b3bb3a",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2bc55c63f04f735",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbb55bacc7339f7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cfee80ad8c0812c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "07afc388bdb0fcec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "61c80497c66d25e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "18768b7b8a18ad77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a20390207465c6f1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "744f0ccfc9b3bb3a",
+  "lastOpenFiles": [
+    "_notes/Public/2021-10-21-immutable.md",
+    "_notes/Public/2021-10-20-react_props.md",
+    "_notes/Public/2021-10-21-syntatic_sugar.md",
+    "_notes/Public/2021-01-05-nested_for_loop.md"
+  ]
+}

@@ -1,7 +1,9 @@
 ---
-layout : single
-title : "Mutable? Immutable? & 참조(reference)"
+title: "Mutable? Immutable? & 참조(reference)"
+notetype : feed
+date : 21-10-2021
 ---
+
 
 immutability  (불변성)  vs.  mutability
 
