@@ -5,8 +5,8 @@ date : 04-11-2021
 ---
 
 ### Client Side Rendering
+![[clientside.png]]
 
-![csr](../images/2021-11-04-client_server/csr.png)
 
 1️⃣   사이트 접속
 
@@ -23,8 +23,7 @@ date : 04-11-2021
 
 
 ### Server Side Rendering
-
-![ssr](../images/2021-11-04-client_server/ssr.png)
+![[serverside.png]]
 
 1️⃣   사이트 접속
 
