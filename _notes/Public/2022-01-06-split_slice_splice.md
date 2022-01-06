@@ -6,10 +6,10 @@ date : 06-01-2022
 
 
 ## str.split (separator)   
-### ☑️ str을 쪼갤 때 | str을 arr로
+### ☑️ str을 쪼갤 때 | str을 arr로  
+  
 
-
-
+  
 
 #### 1.  띄어쓰기마다 쪼개기
 
@@ -27,11 +27,11 @@ let string = ‘Hello,my,name,is,Jenny’ 라면
 
 string.split(’,’)[2] 을 해야
 
-→ ‘name’ 이 나온다.
+→ ‘name’ 이 나온다.  
 
     
 
-#### 2.  알파벳 하나씩 쪼개기
+#### 2.  알파벳 하나씩 쪼개기  
 
 let str= 'codestates'
 
@@ -57,7 +57,7 @@ str.split('').reverse().join('-')
 
 str.split(’’)[0] //하나씩 쪼갠 결과물의 0번째 유닛(알파벳 이외에 띄어쓰기도 카운트 셈)
 
-→ ‘c’
+→ ‘c’  
 
 
       
@@ -67,7 +67,7 @@ let str = ‘codestates’
 
 **str.split()**
 
-→ [’codestates’]
+→ [’codestates’]  
 
 
         
