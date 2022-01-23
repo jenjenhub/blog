@@ -14,7 +14,7 @@ date : 06-01-2022
 
 	let string = "Hello my name is Jenny"
 
-	string.split(" ")[2] 하면  -> ‘name’ 출력
+	string.split(" ")[2] 하면  -> "name" 출력
 ```
 
 Why ? 👉   space 있는 곳마다 string을 쪼개고, 쪼개진 유닛(단어)의 0,1,2번째인 name이 출력.
