@@ -6,7 +6,8 @@ date : 20-10-2021
 
 <br />
 
-## Example 1
+## Case 1
+
 
 <img width="1078" alt="111" src="https://user-images.githubusercontent.com/85834764/150670211-05638d3e-05cf-403d-9941-14ed8214100c.png">
 
@@ -55,9 +56,9 @@ const onClick = props.onClick
 와 동일함.
 
 <br />
+<br />
 
-
-## Example 2
+## Case 2
 
 
 
@@ -74,7 +75,8 @@ Web:
 
 
 <br />
-📌 Original
+
+#### 📌 Original
 
 ```javascript
 import React, { useState } from "react";
@@ -104,7 +106,7 @@ function ChildComponent() {
 }
 ```
 
-
+<br />
 
 ### 부모 컴포넌트 → 자식 컴포넌트 props 전달방법 ❗️
 
@@ -136,7 +138,7 @@ function ChildComponent (props) {
 
 const handleButtonClick = props.handleButtonClick 
 
-가 축약된 게 결과 1 version !! 
+가 축약된 게 Result 1 version !! 
 
 왜? props = {prop : state} 
 
