@@ -5,13 +5,14 @@ date : 21-10-2021
 ---
 
 
-immutability  (불변성)  vs.  mutability
+## immutability  (불변성)  vs.  mutability
 
 immutable한 상태냐,  mutable한 상태냐를 구분해야 하는 경우가 있다.
 
+<br />
 
 
-##### 📌 Object 
+### 📌 Object 
 
 Immutability는 객체가 생성된 이후 그 상태를 변경할 수 없는 디자인 패턴
 
@@ -25,8 +26,9 @@ JavaScript의 원시 타입(primitive data type)은 immutable value
 + Symbol
 
 
+<br />
 
-##### immutable
+#### immutable
 
 ```javascript
 let user = { name : 'Jenny'}
@@ -47,7 +49,7 @@ user;              // { name: 'Caleb'}
 
 
 
-##### mutable
+#### mutable
 
 ```javascript
 let user1 = { name : 'Jenny'}
@@ -63,6 +65,7 @@ user2.name;            // 'Caleb'
 👉 user1과 user2가 같은 address를 참조하고 있기 때문에, 변경하지도 않은 객체 user1도 동시에 변경된다.
 ```
 
+<br />
 
 
 #### 🔮 참조(reference) 와 연관이 있달까.
@@ -75,11 +78,12 @@ JavaScript에서는 원시 데이터형을 제외한 모든 데이터 타입은 
 
 복제는 파일을 복사하는 것이고 참조는 심볼릭 링크(symbolic link) 혹은 바로가기(윈도우)를 만드는 것과 비슷하다. 
 
-
+<br />
 
    
+<br />
 
-##### 📌 Array
+### 📌 Array
 
 
 
@@ -89,7 +93,7 @@ immutable은 원래 객체 다룰 때 쓰는데 배열은 참고만 하기.
 
  [1,2,3,4] 를  [1,2,3,4,5] 로 만들고 싶을 때 :
 
-##### mutable
+#### mutable
 
 ```javascript
 const arr= [1,2,3,4]; 
