@@ -102,7 +102,7 @@ function ChildComponent() {
     // 💡 이 버튼을 눌러서 부모의 상태를 바꿀 순 없을까????
   };
 
-  return <button onClick={handleClick}>값 변경</button>;
+  return <button onClick={handleClick}> 값 변경 </button>
 }
 ```
 
@@ -162,7 +162,7 @@ export default function ParentComponent() {
 
   return (
     <div>
-      <div>값은 {value} 입니다</div>
+      <div> 값은 {value} 입니다 </div>
       <ChildComponent handleButtonClick={handleChangeValue}/>
     </div>
   );
@@ -174,7 +174,7 @@ function ChildComponent({handleButtonClick}) {
     handleButtonClick()
   };
 
-  return <button onClick={handleClick}>값 변경</button>;
+  return <button onClick={handleClick}> 값 변경 </button>
 }
 ```
 
@@ -227,7 +227,7 @@ function ChildComponent({ handleButtonClick }) {
   }
 
   return (
-    <button onClick={handleClick}>값 변경</button>
+    <button onClick={handleClick}> 값 변경 </button>
   )
 }
 ```
