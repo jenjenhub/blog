@@ -10,32 +10,39 @@ date : 06-01-2022
 <br/>
 
 #### 1.  띄어쓰기마다 쪼개기
+```js
 
 	let string = ‘Hello my name is Jenny’
 
 	string.split(’ ‘)[2] 하면  → ‘name’ 출력
+```
 
 Why ? 👉   space 있는 곳마다 string을 쪼개고, 쪼개진 유닛(단어)의 0,1,2번째인 name이 출력.
 
 <br />
 
+```js
 
+let string = ‘Hello,my,name,is,Jenny’ 라면
 
-	let string = ‘Hello,my,name,is,Jenny’ 라면
+string.split(’,’)[2] 을 해야
 
-	string.split(’,’)[2] 을 해야
-
-	→ ‘name’ 이 나온다.  
+→ ‘name’ 이 나온다.  
+```
 
 <br />
 
 #### 2.  알파벳 하나씩 쪼개기  
+
+```js
 
 	let str= 'codestates'
 
 	str.split('')
 
 	→ ['c', 'o', 'd', 'e', 's', 't', 'a', 't', 'e', 's'] (배열로 리턴)
+```
+
 <br />
 
 
