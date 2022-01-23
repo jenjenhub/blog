@@ -4,7 +4,9 @@ notetype : feed
 date : 20-10-2021
 ---
 
-### Example 1
+<br />
+
+## Example 1
 
 <img width="1078" alt="111" src="https://user-images.githubusercontent.com/85834764/150670211-05638d3e-05cf-403d-9941-14ed8214100c.png">
 
@@ -52,9 +54,10 @@ const onClick = props.onClick
 
 와 동일함.
 
+<br />
 
 
-### Example 2
+## Example 2
 
 
 
@@ -70,7 +73,7 @@ Web:
 ​       부모 컴포넌트에서 상태변경함수를 만들어 자식 컴포넌트에 전달 후 사용하는 방식을 쓰자.
 
 
-
+<br />
 📌 Original
 
 ```javascript
@@ -103,7 +106,7 @@ function ChildComponent() {
 
 
 
-##### 부모 컴포넌트 → 자식 컴포넌트 props 전달방법 ❗️
+### 부모 컴포넌트 → 자식 컴포넌트 props 전달방법 ❗️
 
 
 
@@ -141,9 +144,9 @@ props= {handleButtonClick : handleChangeValue}
 
 
 
+<br />
 
-
-📌 Result 1
+#### 📌 Result 1
 
 ```js
 import React, { useState } from "react";
@@ -184,9 +187,9 @@ Web :
 
 
 
+<br />
 
-
-📌 Result 2
+#### 📌 Result 2
 
 설정할 값(newValue)을 콜백 함수의 인자로 넘기면, 
 
