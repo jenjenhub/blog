@@ -45,47 +45,53 @@ string.split(’,’)[2] 을 해야
 
 <br />
 
-
+```js
 	str.split('').reverse() //.reverse()메서드는 배열의 순서 바꾼다
 
 	→ ['s', 'e', 't', 'a', 't', 's', 'e', 'd', 'o', 'c']
+```
 <br />
 
-
+```js
 	str.split('').reverse().join() //.join()은 배열 합쳐서 문자열로 리턴하는 메서드
 
 	→ 's,e,t,a,t,s,e,d,o,c'
+```
 <br />
 
-
+```js
 	str.split('').reverse().join('')
 
 	→ 'setatsedoc'
+```
 <br />
 
-
+```js
 	str.split('').reverse().join('-')
 
 	→ 's-e-t-a-t-s-e-d-o-c'
+```
 <br />
 
-
+```js
 	str.split(’’)[0] //하나씩 쪼갠 결과물의 0번째 유닛(알파벳 이외에 띄어쓰기도 카운트 셈)
 
-	→ ‘c’  
+	→ ‘c’ 
+```
 <br />
 
 
       
 
 #### 3.  복사해서 array로 리턴하기
+```js
 
 	let str = ‘codestates’
 
 	str.split()
 
 	→ [’codestates’]  
-
+```
 <br />
 
 # arr.slice 
@@ -95,13 +101,14 @@ string.split(’,’)[2] 을 해야
 
 ❌  slice는 기존 배열을 바꾸지 않는다.
 <br />
+```js
 
 	str.slice(3);
 
 	문자열 3번째에서 끝까지 긁는다
 
 	(=앞에서 3개를 제거한다)
-
+```
 <br />
 
 <aside> 💡 `str.slice(0,str.length)` 하면 str의 처음부터 끝까지 모든 요소를 보여줌 (콤마나 띄어쓰기도 한자리씩 차지함)
@@ -113,16 +120,21 @@ const str= ('12 33,7  0')
 str.slice(0,3)  -> '12 '
 str.slice(0,6)  -> '12 33,'
 
+
 const animals = ['ant', 'bison', 'camel', 'duck', 'elephant']
 ✅ 앞에서부터 인덱스 세는 법 : 0, 1, 2, 3...
 ✅ 뒤에서부터 인덱스 세는 법 : -0, -1, -2, -3...
 
+
 console.log(animals.slice(2));        ▶️ 앞에서 2개만 빼고 추출 (인덱스 2부터 출력)
 // expected output: Array ["camel", "duck", "elephant"]
+
 console.log(animals.slice(2, 4));     ▶️ 인덱스 2부터 3까지 추출
 // expected output: Array ["camel", "duck"]
+
 console.log(animals.slice(-2));       ▶️ 뒤에서 2개만 추출
 // expected output: Array ["duck", "elephant"]  
+
 console.log(animals.slice(2, -1));    ▶️ 인덱스 2부터 뒤에서 인덱스 -1 추출
 // expected output: Array ["camel", "duck"]
 
@@ -135,17 +147,18 @@ console.log(animals.slice(2, -1));    ▶️ 인덱스 2부터 뒤에서 인덱�
 <br />
 ⭕️ splice는 기존 배열을 변화시킨다.
 
-
+```js
 	arr=[1,2,3,4,5]
 
 	arr.splice(2,1) 하면 index2에서 1개만 쏙 빼고 남은 배열 리턴
 
 	→ [1,2,4,5]
-
+```
 
 
 ✅  splice는 기존 배열을 변화시키는 메소드이기 때문에 복사해서 새 변수에 할당해야 함 (mutable, 얕은복사)
-
+```js
 	const newTags= [...tags]
 
 	newTags.splice(indexToRemove,1)
+```
