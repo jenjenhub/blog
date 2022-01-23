@@ -8,7 +8,7 @@ date : 23-01-2022
 
 submit 버튼을 누르면 화면상 입력했던 모든 input사라지게 하려면 (근데 데이터 저장은 됨)
 <br />
--> `value={}` 사용
+-> `value={}` 사용한다.
 <br />
 <br />
 
@@ -40,4 +40,4 @@ return (
 **결론** : `<input type="text" value={enteredTitle} onChange={titleChangeHandler} />`
 
 <br/>
-(input 여러개 있으니까 같은form영역이다~ 라는 뜻에서 form태그로 감싸주는 것임)
+(input 여러개 있으니까 같은form영역이다~ 라는 뜻에서 form태그로 감싸주는 것이다.)
