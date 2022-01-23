@@ -6,7 +6,7 @@ date : 20-10-2021
 
 ### Example 1
 
-![[111.png]]
+<img width="1078" alt="111" src="https://user-images.githubusercontent.com/85834764/150670211-05638d3e-05cf-403d-9941-14ed8214100c.png">
 
 
 ❗️onClick이라는 변수로 설정한 것. 
@@ -21,7 +21,8 @@ date : 20-10-2021
 ​    구조는 onClick에 handleRollClick함수가 할당되어 있다고 말할 수 있다.
 
 
-![[222.png]]
+<img width="578" alt="222" src="https://user-images.githubusercontent.com/85834764/150670222-46f28890-1250-48a7-8b30-8fe11f6f2f86.png">
+
 
 
 function Button ({onClick}) {
@@ -60,7 +61,8 @@ const onClick = props.onClick
 
 
 Web:
-![[333.png]]
+
+<img width="530" alt="333" src="https://user-images.githubusercontent.com/85834764/150670229-5f6d67c7-7a31-434e-b4f3-f9445b5f5399.png">
 
 
 👉 이 화면에서 '값 변경' button을 누르면 '값은 보여줄게 완전히 달라진 값 입니다' 라고 뜨도록 바꾸고 싶다 !
@@ -176,7 +178,8 @@ function ChildComponent({handleButtonClick}) {
 Web :
 
 
-![[444.png]]
+<img width="531" alt="444" src="https://user-images.githubusercontent.com/85834764/150670237-5d4546f7-fea8-414a-b14c-c2db50a56d42.png">
+
 
 
 
@@ -228,4 +231,7 @@ function ChildComponent({ handleButtonClick }) {
 
 Web :
 
-![[555.png]]
+<img width="538" alt="555" src="https://user-images.githubusercontent.com/85834764/150670244-ffa6abdb-5c33-4484-952b-7a2dbb37966e.png">
+
+
+
