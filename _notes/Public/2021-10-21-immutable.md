@@ -5,6 +5,7 @@ date : 21-10-2021
 ---
 
 <br />
+
 ## immutability  (불변성)  vs.  mutability
 
 immutable한 상태냐,  mutable한 상태냐를 구분해야 하는 경우가 있다.
