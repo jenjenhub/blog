@@ -4,8 +4,9 @@ notetype : feed
 date : 04-11-2021
 ---
 
-### Client Side Rendering
-![[clientside.png]]
+## Client Side Rendering
+
+<img width="497" alt="csr" src="https://user-images.githubusercontent.com/85834764/150669607-4c9db3c6-d569-42ae-b513-1700bf12a61c.png">
 
 
 1️⃣   사이트 접속
@@ -18,12 +19,12 @@ date : 04-11-2021
 
 
 
+<br />
 
 
+## Server Side Rendering
 
-
-### Server Side Rendering
-![[serverside.png]]
+<img width="501" alt="ssr" src="https://user-images.githubusercontent.com/85834764/150669616-4f0bf0de-aaa8-4298-8338-f5cfc25a50c1.png">
 
 1️⃣   사이트 접속
 
@@ -36,7 +37,7 @@ date : 04-11-2021
 
 
 
-
+<br />
 
 
 ## 실전 example
