@@ -12,9 +12,9 @@ date : 06-01-2022
 #### 1.  띄어쓰기마다 쪼개기
 ```js
 
-	let string = ‘Hello my name is Jenny’
+	let string = "Hello my name is Jenny"
 
-	string.split(’ ‘)[2] 하면  → ‘name’ 출력
+	string.split(" ")[2] 하면  -> ‘name’ 출력
 ```
 
 Why ? 👉   space 있는 곳마다 string을 쪼개고, 쪼개진 유닛(단어)의 0,1,2번째인 name이 출력.
@@ -23,11 +23,11 @@ Why ? 👉   space 있는 곳마다 string을 쪼개고, 쪼개진 유닛(단�
 
 ```js
 
-let string = ‘Hello,my,name,is,Jenny’ 라면
+let string = "Hello,my,name,is,Jenny" 라면
 
-string.split(’,’)[2] 을 해야
+string.split(",")[2] 을 해야
 
-→ ‘name’ 이 나온다.  
+-> "name" 이 나온다.  
 ```
 
 <br />
@@ -40,7 +40,7 @@ string.split(’,’)[2] 을 해야
 
 	str.split('')
 
-	→ ['c', 'o', 'd', 'e', 's', 't', 'a', 't', 'e', 's'] (배열로 리턴)
+	-> ['c', 'o', 'd', 'e', 's', 't', 'a', 't', 'e', 's'] (배열로 리턴)
 ```
 
 <br />
@@ -48,35 +48,35 @@ string.split(’,’)[2] 을 해야
 ```js
 	str.split('').reverse() //.reverse()메서드는 배열의 순서 바꾼다
 
-	→ ['s', 'e', 't', 'a', 't', 's', 'e', 'd', 'o', 'c']
+	-> ['s', 'e', 't', 'a', 't', 's', 'e', 'd', 'o', 'c']
 ```
 <br />
 
 ```js
 	str.split('').reverse().join() //.join()은 배열 합쳐서 문자열로 리턴하는 메서드
 
-	→ 's,e,t,a,t,s,e,d,o,c'
+	-> 's,e,t,a,t,s,e,d,o,c'
 ```
 <br />
 
 ```js
 	str.split('').reverse().join('')
 
-	→ 'setatsedoc'
+	-> 'setatsedoc'
 ```
 <br />
 
 ```js
 	str.split('').reverse().join('-')
 
-	→ 's-e-t-a-t-s-e-d-o-c'
+	-> 's-e-t-a-t-s-e-d-o-c'
 ```
 <br />
 
 ```js
 	str.split(’’)[0] //하나씩 쪼갠 결과물의 0번째 유닛(알파벳 이외에 띄어쓰기도 카운트 셈)
 
-	→ ‘c’ 
+	-> ‘c’ 
 ```
 <br />
 
@@ -86,11 +86,11 @@ string.split(’,’)[2] 을 해야
 #### 3.  복사해서 array로 리턴하기
 ```js
 
-	let str = ‘codestates’
+	let str = 'codestates'
 
 	str.split()
 
-	→ [’codestates’]  
+	-> ['codestates']  
 ```
 <br />
 
@@ -152,7 +152,7 @@ console.log(animals.slice(2, -1));    ▶️ 인덱스 2부터 뒤에서 인덱�
 
 	arr.splice(2,1) 하면 index2에서 1개만 쏙 빼고 남은 배열 리턴
 
-	→ [1,2,4,5]
+	-> [1,2,4,5]
 ```
 
 
