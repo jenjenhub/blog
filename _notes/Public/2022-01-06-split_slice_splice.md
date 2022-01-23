@@ -5,7 +5,7 @@ date : 06-01-2022
 ---
 # str.split   
 
-### ☑️ str을 쪼갤 때(separator) | str을 arr로    <br />
+### ☑️ str을 쪼갤 때(separator)  |  str을 arr로    <br />
 
 <br/>
 
