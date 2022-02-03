@@ -40,10 +40,15 @@ A function that should be executed AFTER every component evaluation IF the [depe
 <br />
 (뒤에 dependencies가 바뀔 때마다 실행되어야 하는 함수)
 
+
    #### `[ dependencies ]`
 The function only runs if these dependencies change
+<br />
+(바뀔 변수들)
 
+<br />
 
+- useState 을 사용하면 state가 변경될때마다 re-render 되는데, useEffect는 어떤 dependencies가 변경될때 어떤 함수가 re-render될지 지정할 수 있다.
 <br />
 
 ```js
