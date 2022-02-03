@@ -43,7 +43,6 @@ A function that should be executed AFTER every component evaluation IF the [depe
 
 
     `[ dependencies ]`
-    
 The function only runs if these dependencies change
 <br />
 (바뀔 변수들)
