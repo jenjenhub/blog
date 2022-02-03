@@ -29,6 +29,23 @@ All actions that are not related to bringing something onto the screen directly.
 
 <br />
 
+## useEffect Hook
+
+- `useEffect(() => { ... } , [ dependencies ])`
+- useEffect hook has 2 parameters : `() => { ... }` and `[ dependencies ]`
+
+
+   #### `() => { ... }`
+A function that should be executed AFTER every component evaluation IF the [dependencies] change 
+<br />
+(뒤에 dependencies가 바뀔 때마다 실행되어야 하는 함수)
+
+   #### `[ dependencies ]`
+The function only runs if these dependencies change
+
+
+<br />
+
 ```js
 // import "./App.css";
 import React, { useState, useEffect } from "react";
