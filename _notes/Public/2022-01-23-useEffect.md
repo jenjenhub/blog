@@ -48,7 +48,9 @@ The function only runs if these dependencies change
 (바뀔 변수들)
 
 
-- useState 을 사용하면 state가 변경될때마다 re-render 되는데, useEffect는 어떤 dependencies가 변경될때 어떤 함수가 re-render될지 지정할 수 있다. (With the useEffect hook, We can control **when** a function runs.)
+- useState 을 사용하면 state가 변경될때마다 re-render 되는데, useEffect는 어떤 dependencies가 변경될때 어떤 함수가 re-render될지 지정할 수 있다. 
+
+    With the useEffect hook, We can control **when** a function runs.
 <br />
 
 ```js
