@@ -61,7 +61,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   // ❗[] -> 한번만 실행하고 싶다면 = componentDidMount
-  // 즉, 첫 렌더링 때 App이 처음부터 끝까지 실행이 한번 된다. useEffect는 App함수 안에 있으니까 한번 실행된다.
+  // 즉, 첫 렌더링 때 App이 처음부터 끝까지(return도) 실행이 한번 된다. useEffect는 App함수 안에 있으니까 한번 실행된다.
   // 근데, [] 가 지금처럼 비어있으면 더 이상 아무 일도 일어나지 않지만, (처음 한번만 실행)
   // [count] 처럼 dependencies가 존재하면, count가 변경될 때마다 useEffect 첫번째 인자로 들어있는 함수가 재실행된다. (변경시 지속적 실행)
   useEffect(() => {
