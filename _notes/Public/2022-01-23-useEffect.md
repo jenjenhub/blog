@@ -60,17 +60,20 @@ import React, { useState, useEffect } from "react";
 function App() {
   const [count, setCount] = useState(0);
 
-  // [] -> 한번만 실행하고 싶다면 = componentDidMount
+  // ❗[] -> 한번만 실행하고 싶다면 = componentDidMount
+  // 즉, 첫 렌더링 때 App이 처음부터 끝까지 실행이 한번 된다. useEffect는 App함수 안에 있으니까 한번 실행된다.
+  // 근데, [] 가 지금처럼 비어있으면 더 이상 아무 일도 일어나지 않지만, (처음 한번만 실행)
+  // [count] 처럼 dependencies가 존재하면, count가 변경될 때마다 useEffect 첫번째 인자로 들어있는 함수가 재실행된다. (변경시 지속적 실행)
   useEffect(() => {
     console.log(`컴포넌트가 마운트되었습니다.`);
   }, []);
 
-  // 두번쨰 인자가 없다면 매 리렌더마다 실행
+  // ❗️두번쨰 인자가 없다면 매 리렌더마다 실행
   useEffect(() => {
     console.log(`컴포넌트가 리렌더되었습니다.`);
   });
 
-  // [input] -> input이 변경됐을때에만 실행 = componentDidUpdate
+  // ❗️[input] -> input이 변경됐을때에만 실행 = componentDidUpdate
   useEffect(() => {
     console.log(`count가 ${count}로 업데이트 되었습니다.`);
   }, [count]);
