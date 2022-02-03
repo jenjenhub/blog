@@ -1,5 +1,5 @@
 ---
-title: "React 기초 - useEffect"
+title: "React basics - useEffect"
 notetype : feed
 date : 23-01-2022
 ---
