@@ -6,6 +6,29 @@ date : 23-01-2022
 
 <br />
 
+## What does React do?
+
+React renders UI and reacts to user input.
+- Render JSX
+- Manage State & Props
+- React to user event & input
+- Re-evaluate components upon State & Prop changes
+
+<br />
+
+## What is a Side Effect?
+
+All actions that are not related to bringing something onto the screen directly.
+- Sending HTTP requests (to backend servers)
+- Storing data in browser storage
+- SetTimeout
+
+### Why differentiate?
+
+- These tasks must happen outside of the normal component evaluation and render cycle - especially since they might block / delay rendering (HTTP requests)
+
+<br />
+
 ```js
 // import "./App.css";
 import React, { useState, useEffect } from "react";
