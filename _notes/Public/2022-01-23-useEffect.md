@@ -66,6 +66,9 @@ function App() {
   // [count] 처럼 dependencies가 존재하면, count가 변경될 때마다 useEffect 첫번째 인자로 들어있는 함수가 재실행된다. (변경시 지속적 실행)
   useEffect(() => {
     console.log(`컴포넌트가 마운트되었습니다.`);
+    // 만약 여기에 setCount(1)과 같이, state를 바꾸는 명령이 추가되면,
+    // App함수는 한번 더 실행된다.
+    // Why? useState를 사용하면, state 변경될때마다 전체 함수가 리렌더 되기 때문.
   }, []);
 
   // ❗️두번쨰 인자가 없다면 매 리렌더마다 실행
