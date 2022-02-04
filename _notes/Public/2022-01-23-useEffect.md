@@ -27,6 +27,25 @@ All actions that are not related to bringing something onto the screen directly.
 
 - These tasks must happen outside of the normal component evaluation and render cycle - especially since they might block / delay rendering (HTTP requests)
 
+### Case
+
+- 사용자의 input에 따라서 (input에 반응해서) state를 바꾸는 경우에도 Side Effect라 하여 useEffect를 쓴다.
+
+```js
+const [enteredEmail, setEnteredEmail] = useState('');
+const [enteredPw, setEnteredPw] = useState('');
+const [formIsValid, setFormIsValid] = useState(false);
+
+useEffect (() => {
+setFormIsValid(
+    enteredEmail.includes('@') && enteredPw.trim().length > 6
+    )
+}, [enteredEmail, enteredPw])
+
+const emailChangeHandler = (event) => {
+setEnteredEmail(event.target.value)
+}
+```
 <br />
 
 ## useEffect Hook
