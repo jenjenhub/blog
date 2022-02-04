@@ -1191,7 +1191,7 @@ a.box-feed:active {
   .content figure img {
     display: inline-block; }
   .content figure figcaption {
-    font-style: italic; }
+    font-style: normal; }
 
 .content pre {
   -webkit-overflow-scrolling: touch;
